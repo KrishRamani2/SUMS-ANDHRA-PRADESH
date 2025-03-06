@@ -1,0 +1,24 @@
+{
+    "routes": [
+      {
+        "src": "/login",
+        "dest": "/"
+      },
+      {
+        "src": "/forgotpassword",
+        "dest": "/"
+      },
+      {
+        "src": "/newpassword",
+        "dest": "/"
+      },
+      {
+        "src": "/super-admin",
+        "dest": "/"
+      },
+      {
+        "src": "/super-admin/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
