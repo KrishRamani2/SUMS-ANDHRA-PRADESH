@@ -193,11 +193,11 @@ import { useSchoolStore } from '../../store/stateStore';
 
 // Import images (assuming these are imported elsewhere in your project)
 import School1 from "../images/school.jpg"; // Assuming School1 for Andhra Pradesh
-import School15 from "../images/school15.jpg";
+import School15 from "../images/School15.jpg";
 import School4 from "../images/school4.jpg";
-import School13 from "../images/school13.jpg";
-import School12 from "../images/school12.jpg";
-import School11 from "../images/school11.jpg";
+import School13 from "../images/School13.jpg";
+import School12 from "../images/School12.jpg";
+import School11 from "../images/School11.jpg";
 
 interface School {
   name: string;

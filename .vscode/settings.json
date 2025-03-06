@@ -4,5 +4,6 @@
         "Andra",
         "partialize",
         "Schooldata"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
