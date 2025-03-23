@@ -30,7 +30,7 @@ function App() {
       <Route path="/newpassword" element={<NewPasswordForm />} />
       </Route>
       <Route element={<ProtectedRoute />}>
-        <Route path="/" element={<Navbar />} />
+        <Route path="/*" element={<Navbar />} />
         <Route path="/super-admin" element={<SuperAdminDash />} />
         <Route path="/super-admin/:state/:district/:year" element={<DistrictDashboard />} />
         <Route path="/super-admin/:state/:district/:year/attendance-dashboard" element={<Attendancedash />} />
